@@ -25,7 +25,7 @@ export default class App extends Component {
     try {
       const data = await fetch(this.state.url);
       const jsonData = await data.json();
-      console.log(jsonData);
+      // console.log(jsonData);
 
       if (jsonData.recipes.length === 0) {
         this.setState(() => {

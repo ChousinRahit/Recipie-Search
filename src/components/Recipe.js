@@ -26,17 +26,17 @@ export default class Recipe extends Component {
               <h5>{title}</h5>
               <h6 className="text-slanted text-info">provided by{publisher}</h6>
             </div>
-            <div className="card-footer">
+            <div className="card-footer p-0">
               <button
                 type="button"
-                className="btn btn-info text-capitalize"
+                className="btn btn-info text-capitalize  m-2"
                 onClick={() => handleDetails(0, recipe_id)}
               >
                 Details
               </button>
               <a
                 href={source_url}
-                className="btn btn-dark mx-3"
+                className="btn btn-dark m-2"
                 target="_blanck"
                 rel="noopener noreferrer"
               >
